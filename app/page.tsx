@@ -1,8 +1,5 @@
-import Image from 'next/image'
-
+import "./globals.css";
+import SingIn from "./components/singin";
 export default function Home() {
-  return (
-    <div></div>
-         
-  )
+  return <SingIn />;
 }

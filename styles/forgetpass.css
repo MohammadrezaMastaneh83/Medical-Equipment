@@ -1,0 +1,128 @@
+.main_forget {
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(195, 202, 202);
+}
+
+.forget_box {
+  width: 453px;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.void_forget1 {
+  width: 100%;
+  height: 26px;
+}
+
+.top_forget_page {
+  width: 85%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.exit_forget_btn {
+  position: absolute;
+  left: 95%;
+}
+
+.void_forget2 {
+  width: 100%;
+  height: 10%;
+  /* background-color: black; */
+}
+
+.body_forget_page {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua;  */
+}
+
+.content_forget_body {
+  width: 86%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+.content_forget_body p {
+  margin: 0;
+  color: #2d3748;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.content_forget_body input {
+  padding-inline: 20px;
+  /* padding: 0px 20px; */
+  width: 350px;
+  height: 45px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: none;
+  border: 1px #e2e8f0 solid;
+  transition: all 0.2s;
+}
+
+.content_forget_body input:hover {
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.15);
+}
+
+.content_forget_body input:focus {
+  border: 1px solid #2c9cf0;
+}
+
+.void_forget3 {
+  width: 100%;
+  height: 5%;
+  /* background-color: black; */
+}
+
+.register_forget {
+  width: 86%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+}
+
+.register_forget button {
+  width: 100%;
+  height: 45px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: #2c9cf0;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  word-wrap: break-word;
+  transition: all 0.3s;
+}
+
+.register_forget button:hover {
+  background-color: #1079c8;
+}
+
+.register_forget button:focus {
+  background: linear-gradient(91deg, #0092ff 0%, #1079c8 100%);
+}
