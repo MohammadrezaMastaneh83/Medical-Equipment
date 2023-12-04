@@ -84,7 +84,7 @@
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.15);
 }
 
-.content_body2 input[type=text]:focus {
+.content_body2 input:focus {
   border: 1px solid #2c9cf0;
 }
 
