@@ -5,7 +5,6 @@ export default function NotFound() {
     <div className={style.notfound_all}>
       <div className={style.notfound_move}>
       <Image src="/404.png" alt="" width={450} height={100} />
-      
       </div>
       <p className={style.notFound_sorry}>متاسفیم</p>
       <p className={style.notfound_pagenotfound}>صفحه مورد نظر یافت نشد</p>
