@@ -1,0 +1,209 @@
+.contact_all {
+  width: 100%;
+  height: 778px;
+  display: flex;
+  align-items: end;
+}
+.contact_baby {
+  width: 100%;
+  height: 600px;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_p {
+  color: var(--Dark, #060607);
+  text-align: right;
+  font-family: var(--Mediumestedad);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+  opacity: 0.8;
+}
+.contact_boxs {
+  width: 82.3%;
+  height: 500px;
+  /* background-color: palevioletred; */
+  display: flex;
+  justify-content: space-between;
+}
+.contact_movp {
+  width: 81%;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+}
+
+.contact_box1 {
+  width: 544px;
+  height: 414px;
+  border-radius: 15px;
+  border: 1.5px solid rgba(26, 26, 26, 0.05);
+  background: #fff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+}
+.contact_box2 {
+  width: 544px;
+  height: 414px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1.5px solid rgba(26, 26, 26, 0.05);
+  background: #fff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.contact_input_p1 {
+  color: var(--Dark, #060607);
+  text-align: right;
+  font-family: var(--Mediumestedad);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0.16px;
+}
+.contact_input1 {
+  width: 238px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid rgba(203, 203, 203, 0.8);
+  background: #fff;
+}
+.contact_input2 {
+  width: 238px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid rgba(203, 203, 203, 0.8);
+  background: #fff;
+}
+.contact_input3 {
+  display: flex;
+  width: 500px;
+  height: 40px;
+  padding: 8px 396px 8px 8px;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid rgba(203, 203, 203, 0.8);
+  background: #fff;
+}
+.contact_input3::placeholder {
+  color: #c7c7c7;
+  text-align: right;
+  font-family: var(--regularNumber);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+  direction: ltr;
+}
+.contact_input4 {
+  width: 500px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(203, 203, 203, 0.8);
+  background: #fff;
+}
+.contact_input_div3 {
+  /* margin-top: 20px; */
+}
+.contact_input_div4 {
+  /* margin-top: 20px; */
+}
+.contact_input_all {
+  display: flex;
+  gap: 23px;
+  margin-top: 10px;
+}
+.contact_btn {
+  display: flex;
+  width: 500px;
+  height: 48px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: var(--Secondary-Color, #54e346);
+  margin-top: 15px;
+  color: #fff;
+  text-align: right;
+  font-family: var(--Lightstedad);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+.contact_baby_box {
+  width: 95%;
+  height: 200px;
+  /* background-color: #54e346; */
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.contact_number {
+  direction: ltr;
+  color: #4e4e4e;
+  font-family: var(--Mediumestedad);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+.contact_adress {
+  color: var(--Dark, #060607);
+  text-align: right;
+  font-family: var(--Mediumestedad);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.contact_praghra {
+  color: #4e4e4e;
+  text-align: right;
+  font-family: var(--Lightstedad);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.contact_call {
+  color: var(--Dark, #060607);
+  text-align: right;
+  font-family: var(--Mediumestedad);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 65px; /* 145.455% */
+}
+.google_map {
+  width: 100%;
+  height: 400px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.google_map iframe {
+  border-radius: 6px;
+  border: 1px solid #cbcbcb;
+  background: #cdcdcd;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+}

@@ -24,4 +24,31 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
+  direction: rtl;
+}
+
+.productlist_productlist_pagination_container__22a4Q li {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productlist_productlist_page_previous__kK_M1 {
+  padding-right: 32% !important;
+  padding-left: 32% !important;
+  padding-bottom: 15% !important;
+  padding-top: 15% !important;
+}
+.productlist_productlist_page_num__kxV_X {
+  padding-right: 36% !important;
+  padding-left: 36% !important;
+  padding-bottom: 22% !important;
+  padding-top: 22% !important;
+}
+.productlist_productlist_page_next__wbleb {
+  padding-right: 32% !important;
+  padding-left: 32% !important;
+  padding-bottom: 15% !important;
+  padding-top: 15% !important;
 }
