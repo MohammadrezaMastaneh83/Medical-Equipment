@@ -1,3 +1,4 @@
+"use client";
 import style from "./gallery.module.css";
 import Image from "next/image";
 

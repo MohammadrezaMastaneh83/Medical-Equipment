@@ -1,6 +1,6 @@
 .productlist_all {
     width: 100%;
-    height: 900px;
+    height: 800px;
     /* background-color: red; */
     display: flex;
     flex-direction: column;
@@ -220,6 +220,14 @@
     flex-direction: column;
     align-items: center;
   }
+  .productlist_fix{
+    width: 100%;
+    height: 530px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .productlist_header_tr {
     width: 100%;
     height: 50px;
@@ -390,12 +398,11 @@
   }
   .productlist_pagination {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     /* background-color: blue; */
     width: 300px;
-    height: 60px;
-    /* margin-top: 50px; */
+   
   }
   .productlist_pagination_container {
     /* background-color: #175cd3; */
@@ -411,7 +418,7 @@
     margin-bottom: 5rem;
     font-size: 14px;
     gap: 5px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
     direction: ltr;
   }
   

@@ -2,6 +2,12 @@
   width: 100%;
   max-width: 1440px;
   height: fit-content;
+  background: #fcfcfc;
+}
+.background {
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;

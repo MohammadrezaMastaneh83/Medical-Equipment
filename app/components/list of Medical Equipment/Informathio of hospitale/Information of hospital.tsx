@@ -309,6 +309,7 @@ export default function Information_Hospital() {
           </button>
         </div>
       </div>
+      <div className={style.productlist_fix}>
       <div className={style.productlist_table_div}>
         <table>
           <tr className={style.productlist_header_tr}>
@@ -385,6 +386,7 @@ export default function Information_Hospital() {
           nextLinkClassName={style.productlist_page_next}
           activeLinkClassName={style.productlist_active}
         />
+      </div>
       </div>
     </div>
   );
