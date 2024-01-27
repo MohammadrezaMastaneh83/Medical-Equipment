@@ -10,14 +10,19 @@ import AboutKhorshid from "./components/about khorshid/about khorshid";
 import Self_Expression from "./components/self-expression/self-expression";
 import Group_of_Medical_Equipment from "./components/group of Medical Equipment/group of Medical Equipment";
 import App from "./components/keen slider/keenSlider";
-import Landing_News from "./components/landpage news/news"
+import Landing_News from "./components/landpage news/news";
 import RootLayout from "./layout";
 import Header2 from "./components/header2/header2";
+import AboutMe from "./components/aboutme/aboutme";
+import PurchaseExpert from "./components/purchaseExport/purchase";
+import Market from "./components/market/market";
+import Product from "./components/market/pruduct/product";
+import Slider from "./components/market/slider/slider";
+import About from "./aboutme/page";
 export default function Home() {
   return (
-   
-      <div className={styles.background}>
-        <HomeImage />
+    <div className={styles.background}>
+      <HomeImage />
         <GuideCard />
         <CardBox />
         <ShowPlace />
@@ -29,7 +34,6 @@ export default function Home() {
         <App />
         <Group_of_Medical_Equipment />
         <Landing_News/>
-      </div>
-    
+    </div>
   );
 }

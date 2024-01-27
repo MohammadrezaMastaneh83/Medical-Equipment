@@ -1,0 +1,302 @@
+.main_page_about_me {
+  width: 100%;
+  max-width: 1440px;
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.about_me {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rout {
+  width: 100%;
+  height: 10%;
+  /* background-color: rgba(155, 158, 158, 0.45); */
+}
+
+.about_the_center {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: blue; */
+}
+
+.about_the_center_of_Khursheed_eight {
+  width: 50%;
+  height: 80%;
+  /* background-color: cornflowerblue; */
+}
+
+.void_of_about_the_center_of_Khursheed_eight {
+  width: 100%;
+  height: 30%;
+  background-color: #fff;
+}
+
+.picture_of_about_the_center_of_Khursheed_eight {
+  width: 44%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* background-color: rgb(45, 198, 37);     */
+}
+
+.icon_title_space {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: aqua; */
+}
+
+.darbare_kanon {
+  margin: 0;
+  margin-right: -17px;
+  color: #2f2f2f;
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
+  font-family: var(--medium);
+}
+
+.khorshide_hasht {
+  margin: 0;
+  margin-right: 10px;
+  color: #54e346;
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
+  font-family: var(--medium);
+}
+
+.icon_of_about_the_center_of_Khursheed_eight {
+  margin-top: 17px;
+  width: 60.7px;
+  height: 60.7px;
+  position: relative;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  background: #fcfcfc;
+  box-shadow: 0px 2px 8px rgba(47, 47, 47, 0.15);
+  border-radius: 2px;
+}
+
+.icon_of_about_the_center_of_Khursheed_eight2 {
+  margin-top: 17px;
+  width: 60.7px;
+  height: 60.7px;
+  position: relative;
+  left: 4%;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  background: #54e346;
+  box-shadow: 0px 4px 15px rgba(37, 37, 34, 0.05);
+  border-radius: 2px;
+}
+
+.space_of_paragraph_about_the_center_of_Khursheed_eight {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* background-color: aqua; */
+}
+
+.paragraph_about_the_center_of_Khursheed_eight {
+  width: 84%;
+  height: 100%;
+  color: #979797;
+  font-size: 16px;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 10px;
+  font-family: var(--medium);
+  /* background-color: rgb(129, 59, 59); */
+}
+
+.viod_in_main_page {
+  width: 100%;
+  height: 12%;
+  /* background-color: #979797; */
+}
+
+.title_of_purchase_guide {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  /* background-color: #54e346; */
+}
+
+.space_of_icon_of_purchase_guide {
+  width: 37%;
+  height: 100%;
+  display: flex;
+  /* background-color: blue; */
+}
+
+.icon_of_purchase_guide {
+  margin-top: 15px;
+  width: 60.7px;
+  height: 60.7px;
+  position: relative;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  background: #fcfcfc;
+  box-shadow: 0px 2px 8px rgba(47, 47, 47, 0.15);
+  border-radius: 2px;
+}
+
+.icon_of_purchase_guide2 {
+  margin-top: 15px;
+  width: 50.7px;
+  height: 50.7px;
+  position: relative;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  background: #2c9cf0;
+  box-shadow: 0px 4px 15px rgba(37, 37, 34, 0.05);
+  border-radius: 2px;
+  left: 5%;
+}
+
+.space_of_text_of_purchase_guide {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.rahnama {
+  color: #292929;
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin: 0;
+  font-family: var(--medium);
+}
+
+.kharid {
+  color: #2c9cf0;
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin: 0;
+  margin-right: 6px;
+  font-family: var(--medium);
+}
+
+.lavazem {
+  color: #292929;
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin: 0;
+  margin-right: 8px;
+  font-family: var(--medium);
+}
+
+.space_of_purchase_guide {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.purchase_guide {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  /* background-color: blueviolet; */
+}
+
+.array_space {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background-color: #959c94; */
+}
+
+.box_array {
+  width: 296px;
+  height: 312px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: white;
+  box-shadow: 2px 2px 8px rgba(151, 151, 151, 0.203);
+  font-weight: 800;
+}
+
+.space_icon_main {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #2c9cf0; */
+}
+
+.space_main {
+  width: 27%;
+  height: 55%;
+  /* background-color: red; */
+}
+
+.space_icon {
+  width: 100%;
+  margin-top: -61px;
+  margin-right: 19px;
+  /* background-color: red; */
+}
+
+.space_title {
+  width: 60%;
+  height: 20%;
+  text-align: center;
+  /* background-color: #979797; */
+}
+
+.title_array {
+  width: 100%;
+  height: 100%;
+  color: #060606;
+  font-size: 18px;
+  font-weight: 500;
+  word-wrap: break-word;
+  font-family: var(--medium);
+  /* background-color: blue;  */
+}
+
+.description_space {
+  width: 75%;
+  height: 20%;
+  text-align: center;
+}
+
+.description_array {
+  width: 100%;
+  height: 10%;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-family: var(--medium);
+  /* background-color: aquamarine; */
+}

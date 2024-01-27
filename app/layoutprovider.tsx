@@ -12,13 +12,17 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
     "/Contactus",
     "/gallery",
     "/listofMedicalEquipment",
+    "/prudrout",
   ];
   const excludeNavbar = [
-    
     "/profil",
     "/Contactus",
     "/gallery",
     "/listofMedicalEquipment",
+    "/aboutme",
+    "/PurchaseExport",
+    "/marketrout",
+    "/prudrout",
   ];
   return (
     <>
