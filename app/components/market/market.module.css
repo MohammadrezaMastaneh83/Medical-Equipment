@@ -1,0 +1,358 @@
+.main_market {
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  
+}
+
+.patern_filter_prud {
+  width: 100%;
+  height: 1800px;
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  margin-top: 186px;
+}
+
+.main_filter {
+  width: 25%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  /* background-color: red; */
+}
+
+.up_main_filter {
+  width: 335px;
+  height: 61px;
+  color: #979797;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 31.44px;
+  word-wrap: break-word;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 13px;
+  background: white;
+  box-shadow: 0px 2px 8px rgba(151, 151, 151, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px #f2f2f2 solid;
+  justify-content: center;
+  align-items: center;
+  gap: 109px;
+  display: inline-flex;
+  /* background-color: #54e346; */
+}
+
+.up_main_filter input {
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+  outline: none;
+  font-family: var(--YekanMedium);
+}
+
+.serach_img {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  /* background-color: red; */
+}
+
+.img {
+  position: absolute;
+  top: 38px;
+  right: 15px;
+}
+
+.down_main_filter {
+  width: 335px;
+  height: 1374px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 2px 8px rgba(151, 151, 151, 0.15);
+  border-radius: 10px;
+  /* background-color: aqua; */
+}
+
+.up_down_main_filter {
+  width: 90%;
+  height: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+
+.line {
+  width: 90%;
+  height: 2px;
+  background-color: #e6e6e6;
+}
+
+.down_down_main_filter {
+  width: 90%;
+  height: 94%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-family: var(--medium);
+
+  /* background-color: red */
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  margin-left: 270px;
+  margin-top: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  background-color: #eee;
+  transition: all 0.2s;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #36c578;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 8px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* .checkbox {
+  width: 77%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+} */
+
+/* .checkbox input{
+
+} */
+
+.checkbox p {
+  color: #060607;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.main_prud {
+  width: 65%;
+  height: 1700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 23px;
+  /* background-color: blue; */
+}
+
+.part_of_prud {
+  width: 282px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.up_part_of_prud {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.down_part_of_prud {
+  width: 90%;
+  height: 36%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(173, 173, 173, 0.096);
+}
+
+.title_of_part {
+  width: 93%;
+  height: 22%;
+  display: flex;
+  align-items: center;
+  color: #2f2f2f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 27.51px;
+  word-wrap: break-word;
+  font-family: var(--medium);
+  /* background-color: aqua; */
+}
+
+.nameC_of_part {
+  width: 93%;
+  height: 18%;
+  display: flex;
+  font-family: var(--medium);
+  /* background-color: blueviolet; */
+}
+
+.frame {
+  width: 5%;
+  height: 100%;
+  margin-top: 10px;
+  /* background-color: coral; */
+}
+.com {
+  width: 25%;
+  height: 100%;
+  color: #707070;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 23.58px;
+  word-wrap: break-word;
+  font-family: var(--medium);
+}
+.naC {
+  width: 50%;
+  height: 100%;
+  color: #979797;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.58px;
+  word-wrap: break-word;
+  font-family: var(--medium);
+  /* background-color: rgb(80, 205, 255); */
+}
+
+.phoneC_of_part {
+  width: 93%;
+  height: 25%;
+  display: flex;
+  font-family: var(--medium);
+  /* background-color: aqua; */
+}
+
+.farmeP {
+  width: 5%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.comP {
+  width: 28%;
+  height: 100%;
+  color: #707070;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 23.58px;
+  word-wrap: break-word;
+  font-family: var(--medium);
+}
+
+.phoC {
+  width: 50%;
+  height: 100%;
+  color: #979797;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.58px;
+  word-wrap: break-word;
+  font-family: var(--medium);
+  direction: rtl;
+}
+
+.buy_prud {
+  width: 93%;
+  height: 30%;
+  display: flex;
+  gap: 12px;
+  /* background-color: rgb(170, 255, 0); */
+}
+
+.kharid {
+  width: 100%;
+  height: 100%;
+  color: #54e346;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  word-wrap: break-word;
+  font-family: var(--medium);
+}
+
+.arrow {
+  width: 100%;
+  height: 100%;
+  margin-top: 7px;
+}

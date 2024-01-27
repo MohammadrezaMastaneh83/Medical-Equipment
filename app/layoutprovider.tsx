@@ -10,8 +10,11 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
     "/profil",
     "/Contactus",
     "/gallery",
-    "/listofMedicalEquipment"
-   
+    "/listofMedicalEquipment",
+    "/aboutme",
+    "/PurchaseExport",
+    "/marketrout",
+    "/prudrout"
   ];
   return (
     <>
