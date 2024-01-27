@@ -13,6 +13,9 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
     "/gallery",
     "/listofMedicalEquipment",
     "/prudrout",
+    "/marketrout",
+    "/PurchaseExport",
+    "/aboutme"
   ];
   const excludeNavbar = [
     "/profil",
