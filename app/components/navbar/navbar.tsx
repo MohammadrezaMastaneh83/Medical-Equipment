@@ -23,6 +23,10 @@ export default function Navbar() {
       name: "/listofMedicalEquipment",
       faName: "لیست تجهیزات پزشکی",
     },
+    {
+      name : "/prudrout",
+      faName: "اطلاعات دستگاه",
+    }
   ];
   return (
     <div className={style.navbar_all}>
