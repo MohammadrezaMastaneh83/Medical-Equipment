@@ -349,3 +349,7 @@
   font-weight: 600;
   line-height: normal;
 }
+.keenslider_btn:hover{
+   background-color: #23DA12;
+   box-shadow: 0px 2px 8px 0px rgba(151, 151, 151, 0.15)
+}

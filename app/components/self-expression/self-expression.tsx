@@ -1,4 +1,4 @@
-import "./self-expression.module.css";
+
 import styles from "./self-expression.module.css";
 import Image from "next/image";
 export default function Self_Expression() {

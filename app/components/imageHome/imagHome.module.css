@@ -51,7 +51,7 @@
   padding: 8px 30px;
   gap: 3.4px;
   border-radius: 10px;
-  background: var(--Primary-Color, #2c9cf0);
+  background: var(--Primary-Color, #2C9CF0);
   box-shadow: 0px 2px 8px 0px rgba(151, 151, 151, 0.15);
   color: #fff;
   text-align: right;
@@ -60,6 +60,10 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.homimag_btn_mosh:hover{
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(91deg, #0092FF 0.16%, #1079C8 100%)
 }
 .homimag_btn_about {
   width: 145;
@@ -79,6 +83,7 @@
   font-weight: 600;
   line-height: normal;
 }
+
 .homimag_btn{
     width: 477px;
     height: 75px;
