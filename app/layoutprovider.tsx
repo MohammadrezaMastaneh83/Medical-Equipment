@@ -4,6 +4,8 @@ import Header from "./components/header/header";
 import Header2 from "./components/header2/header2";
 import { usePathname } from "next/navigation";
 import Navbar from "./components/navbar/navbar";
+import { Provider } from "react-redux";
+import { Medical } from "./store/MedicalStore";
 export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
   const pathname = usePathname();
   const excludeHeaderFooterRoutes = [
@@ -15,7 +17,7 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
     "/prudrout",
     "/marketrout",
     "/PurchaseExport",
-    "/aboutme"
+    "/aboutme",
   ];
   const excludeNavbar = [
     "/profil",
@@ -29,11 +31,13 @@ export const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
   ];
   return (
     <>
-      {" "}
-      {excludeHeaderFooterRoutes.includes(pathname) && <Header />}
-      {excludeHeaderFooterRoutes.includes(pathname) && <Header2 />}
-      {excludeNavbar.includes(pathname) && <Navbar />}
-      {children} {excludeHeaderFooterRoutes.includes(pathname) && <Footer />}{" "}
+      <Provider store={Medical}>
+        {" "}
+        {excludeHeaderFooterRoutes.includes(pathname) && <Header />}
+        {excludeHeaderFooterRoutes.includes(pathname) && <Header2 />}
+        {excludeNavbar.includes(pathname) && <Navbar />}
+        {children} {excludeHeaderFooterRoutes.includes(pathname) && <Footer />}{" "}
+      </Provider>
     </>
   );
 };
