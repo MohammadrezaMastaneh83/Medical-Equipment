@@ -1,3 +1,4 @@
+"use client"
 import style from "./laboratory.module.css"
 import { useState, useEffect } from "react";
 import ReactPaginate from "react-paginate";
