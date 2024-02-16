@@ -49,41 +49,7 @@ export default function Rejestry() {
 
       .catch((err) => console.log(err));
     const token = "your_token_here";
-    localStorage.setItem("authToken", token);
-    
-    // fetch("https://meysamansari2023.serv00.net/api/register", {
-    //   method: "POST",
-    //   headers: {
-    //     Accept: "application/json",
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({
-    //     name: "asqaaarr ",
-    //     family: "rezazade",
-    //     middle_name: "mamad",
-    //     email: "mahanghvghvgh@gmail.com",
-    //     phone_number: "09126745889",
-    //     national_id: "0987656778",
-    //     age: "21",
-    //     gender: "male",
-    //     marital_state: "single",
-    //     education: "diploma",
-    //     job: "worker",
-    //     country: "iran",
-    //     state: "tehran",
-    //     city: "tehran",
-    //     password:"123456",
-    //     role: "seller",
-    //   }),
-    //   redirect: "follow",
-    // })
-    //   .then((res) => {
-    //     res.json();
-    //     () => dispatch(handleClose2());
-    //   })
-
-    //   .then((res) => console.log(res))
-    //   .catch((err) => console.error("Error :", err));
+    // localStorage.setItem("authToken", token); 
   };
   const savename = useSelector(
     (state: RootState) => state.MedicalEquipment.name
