@@ -64,7 +64,7 @@ export default function Login() {
         console.log(res.token)
         dispatch(handleClose())
         //  let ali = [...Api]
-        localStorage.setItem("userName", savename);
+        const userName = typeof window !== 'undefined' ?  localStorage.getItem("userName") : null
          
 
         // logout

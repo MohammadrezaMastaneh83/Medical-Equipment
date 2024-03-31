@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import styles from "./header.module.css";
 import Image from "next/image";
@@ -16,9 +17,16 @@ export default function Header() {
 const buttonInfo = useSelector((state:RootState) => state .MedicalEquipment.name)
   const count = useSelector((state: RootState) => state.MedicalEquipment.open);
   const dispatch = useDispatch();
-  const userName = localStorage.getItem("userName")
+  // let userName : string|undefined|null
+   const userName = typeof window !== 'undefined' ?  localStorage.getItem("userName") : null
+   
   return (
     <div className={styles.header_pad}>
+      <link rel="icon" href="/LOGO 1.svg" type="image/png"/>
+      {/* <Head>
+      <title>ali</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head> */}
       <div className={styles.header_all}>
         <div className={styles.header_back}>
           <div className={styles.header_search}>
@@ -35,7 +43,7 @@ const buttonInfo = useSelector((state:RootState) => state .MedicalEquipment.name
               className={styles.header_svg}
               src="/person_FILL0_wght400_GRAD0_opsz48 (2) 1.svg"
             />
-            {userName}
+            {userName }
           </button>
             {/* <Button onClick={() => dispatch(handleOpen())}>
               Show backdrop
